@@ -752,6 +752,7 @@ Where:
 ## Zone Job
 
 Make it economically believable that:
+
 - Buyer can afford and justify this
 - Seller can deliver profitably at scale
 - Both sides win
@@ -772,22 +773,22 @@ Make it economically believable that:
 
 ### **Buyer Economics (Outside-In — PRIMARY):**
 
-| Decision | What It Locks | Status |
-|----------|--------------|--------|
-| **Cost of alternative** | What buyer pays today (tool + labor + opportunity cost) | ⬜ LOCKED / FUZZY / MISSING |
-| **Buyer budget/WTP** | What buyer can/will pay for this category | ⬜ LOCKED / FUZZY / MISSING |
-| **Buyer ROI framework** | How buyer justifies spend internally (formula, benchmarks) | ⬜ LOCKED / FUZZY / MISSING |
-| **Payment preference** | How buyer prefers to pay (monthly/annual/upfront) | ⬜ LOCKED / FUZZY / MISSING |
-| **Procurement requirements** | Buyer's approval/PO process, finance involvement | ⬜ LOCKED / FUZZY / MISSING |
+| Decision                     | What It Locks                                              | Status                     |
+| ---------------------------- | ---------------------------------------------------------- | -------------------------- |
+| **Cost of alternative**      | What buyer pays today (tool + labor + opportunity cost)    | ⬜ LOCKED / FUZZY / MISSING |
+| **Buyer budget/WTP**         | What buyer can/will pay for this category                  | ⬜ LOCKED / FUZZY / MISSING |
+| **Buyer ROI framework**      | How buyer justifies spend internally (formula, benchmarks) | ⬜ LOCKED / FUZZY / MISSING |
+| **Payment preference**       | How buyer prefers to pay (monthly/annual/upfront)          | ⬜ LOCKED / FUZZY / MISSING |
+| **Procurement requirements** | Buyer's approval/PO process, finance involvement           | ⬜ LOCKED / FUZZY / MISSING |
 
 ### **Seller Viability (Inside-Out — SECONDARY):**
 
-| Decision | What It Locks | Status |
-|----------|--------------|--------|
-| **Price point** | What you charge (aligned with buyer WTP) | ⬜ LOCKED / FUZZY / MISSING |
-| **Gross margin floor** | Minimum viable margin to deliver profitably | ⬜ LOCKED / FUZZY / MISSING |
-| **Segment size** | Enough buyers exist at this price point | ⬜ LOCKED / FUZZY / MISSING |
-| **Capacity constraint** | What breaks first at 10x scale | ⬜ LOCKED / FUZZY / MISSING |
+| Decision                | What It Locks                               | Status                     |
+| ----------------------- | ------------------------------------------- | -------------------------- |
+| **Price point**         | What you charge (aligned with buyer WTP)    | ⬜ LOCKED / FUZZY / MISSING |
+| **Gross margin floor**  | Minimum viable margin to deliver profitably | ⬜ LOCKED / FUZZY / MISSING |
+| **Segment size**        | Enough buyers exist at this price point     | ⬜ LOCKED / FUZZY / MISSING |
+| **Capacity constraint** | What breaks first at 10x scale              | ⬜ LOCKED / FUZZY / MISSING |
 
 **Decision Score:** ___/9 decisions locked
 
@@ -798,6 +799,7 @@ Make it economically believable that:
 **One-Page Unit Economics Sketch:**
 
 Must include:
+
 - **Buyer side:** Cost of alternative, typical budget, ROI calculation
 - **Seller side:** Target ACV, gross margin assumption, delivery cost
 - **Scale test:** What breaks first if this scales to 50 buyers
@@ -805,6 +807,7 @@ Must include:
 **Rough is fine. Missing is not.**
 
 **Template:**
+
 ```
 BUYER ECONOMICS
 Alternative cost: €__/year (tool + labor + opportunity)
@@ -827,13 +830,13 @@ At this price point: __
 
 ## Surfaces (Where Decisions Must Visibly Appear)
 
-| Surface | Role | Status |
-|---------|------|--------|
-| **Pricing page** | Public pricing (if applicable) or pricing philosophy | ⬜ EXISTS / WEAK / ABSENT |
-| **ROI calculator / value tool** | Buyer personalizes economics | ⬜ EXISTS / WEAK / ABSENT |
-| **Proposal / commercial slide** | Deal economics spelled out | ⬜ EXISTS / WEAK / ABSENT |
-| **FAQ / objections section** | "Why does this cost $X?" answered from buyer ROI | ⬜ EXISTS / WEAK / ABSENT |
-| **Unit economics doc** | Internal model (for founder/investor) | ⬜ EXISTS / WEAK / ABSENT |
+| Surface                         | Role                                                 | Status                   |
+| ------------------------------- | ---------------------------------------------------- | ------------------------ |
+| **Pricing page**                | Public pricing (if applicable) or pricing philosophy | ⬜ EXISTS / WEAK / ABSENT |
+| **ROI calculator / value tool** | Buyer personalizes economics                         | ⬜ EXISTS / WEAK / ABSENT |
+| **Proposal / commercial slide** | Deal economics spelled out                           | ⬜ EXISTS / WEAK / ABSENT |
+| **FAQ / objections section**    | "Why does this cost $X?" answered from buyer ROI     | ⬜ EXISTS / WEAK / ABSENT |
+| **Unit economics doc**          | Internal model (for founder/investor)                | ⬜ EXISTS / WEAK / ABSENT |
 
 **Surface Score:** ___/5 surfaces exist and are strong
 
@@ -844,18 +847,21 @@ At this price point: __
 ### **POSITIVE SIGNALS:**
 
 ✅ **Price Engagement:**
+
 - Buyer asks pricing-related questions early (Call 1-2)
 - Buyer discusses budget ownership ("This comes from my budget")
 - Buyer frames internal ROI conversation proactively
 - Buyer brings procurement/finance into loop early
 
 ✅ **Value Recognition:**
+
 - Buyer calculates value in their own terms
 - Buyer compares to alternative's pricing favorably
 - "This makes sense financially" explicit statement
 - Buyer references cost of alternative unprompted
 
 ✅ **Process Understanding:**
+
 - Buyer understands payment structure
 - Buyer asks about contract terms appropriately
 - Buyer discusses renewal/expansion path
@@ -863,18 +869,21 @@ At this price point: __
 ### **NEGATIVE SIGNALS:**
 
 ❌ **Price Shock:**
+
 - Buyer surprised by price ("I thought this was cheaper")
 - "We'll figure out pricing later" avoidance pattern
 - "Our budget is $X" when X is <20% of your price
 - Multiple discount requests without value discussion
 
 ❌ **Value Confusion:**
+
 - Buyer doesn't understand what they're paying for
 - "What exactly am I buying?" confusion
 - Value metric doesn't resonate with buyer economics
 - Buyer compares to wrong alternatives on price
 
 ❌ **Economic Misalignment:**
+
 - Deal size too small for sales effort required
 - Buyer wants monthly when you need annual
 - Gross margin assumptions broken by scope creep
@@ -897,12 +906,12 @@ At this price point: __
 **Setup Time:** 5 minutes  
 **Setup:** Create segment for pricing page visitors, track time and exits
 
-| Metric | Green 🟢 | Yellow 🟡 | Red 🔴 | Check Frequency |
-|--------|----------|-----------|--------|-----------------|
-| **Pricing page visit rate** (from homepage) | >30% | 15-30% | <15% | Weekly |
-| **Time on pricing page** | >2 min | 1-2 min | <1 min | Weekly |
-| **Exit rate** (pricing page) | <60% | 60-80% | >80% | Weekly |
-| **Calculator interaction rate** (if exists) | >40% | 20-40% | <20% | Weekly |
+| Metric                                      | Green 🟢 | Yellow 🟡 | Red 🔴  | Check Frequency |
+| ------------------------------------------- | ------- | -------- | ------ | --------------- |
+| **Pricing page visit rate** (from homepage) | >30%    | 15-30%   | <15%   | Weekly          |
+| **Time on pricing page**                    | >2 min  | 1-2 min  | <1 min | Weekly          |
+| **Exit rate** (pricing page)                | <60%    | 60-80%   | >80%   | Weekly          |
+| **Calculator interaction rate** (if exists) | >40%    | 20-40%   | <20%   | Weekly          |
 
 **Action if Red:** Pricing unclear, no self-serve economics understanding
 
@@ -914,11 +923,11 @@ At this price point: __
 **Setup Time:** 5 minutes  
 **Setup:** Upload proposal template, track per deal
 
-| Metric | Green 🟢 | Yellow 🟡 | Red 🔴 | Check Frequency |
-|--------|----------|-----------|--------|-----------------|
-| **Proposal view rate** | >90% | 70-90% | <70% | Per deal |
-| **Time on commercial terms section** | >3 min | 1-3 min | <1 min | Per deal |
-| **Section re-visit rate** (pricing) | >50% | 30-50% | <30% | Per deal |
+| Metric                               | Green 🟢 | Yellow 🟡 | Red 🔴  | Check Frequency |
+| ------------------------------------ | ------- | -------- | ------ | --------------- |
+| **Proposal view rate**               | >90%    | 70-90%   | <70%   | Per deal        |
+| **Time on commercial terms section** | >3 min  | 1-3 min  | <1 min | Per deal        |
+| **Section re-visit rate** (pricing)  | >50%    | 30-50%   | <30%   | Per deal        |
 
 **Action if Red:** Pricing not engaging, buyer not internalizing economics
 
@@ -930,12 +939,12 @@ At this price point: __
 **Setup Time:** 0 minutes (already in CRM)  
 **Setup:** Track custom fields: ACV, discount %, close date
 
-| Metric | Green 🟢 | Yellow 🟡 | Red 🔴 | Check Frequency |
-|--------|----------|-----------|--------|-----------------|
-| **ACV variance** (from target) | <20% | 20-40% | >40% | Monthly |
-| **Discount rate** (% off list) | <10% | 10-25% | >25% | Monthly |
-| **Custom pricing requests** | <20% | 20-40% | >40% | Monthly |
-| **Price objection rate** | <30% of deals | 30-60% | >60% | Monthly |
+| Metric                         | Green 🟢       | Yellow 🟡 | Red 🔴 | Check Frequency |
+| ------------------------------ | ------------- | -------- | ----- | --------------- |
+| **ACV variance** (from target) | <20%          | 20-40%   | >40%  | Monthly         |
+| **Discount rate** (% off list) | <10%          | 10-25%   | >25%  | Monthly         |
+| **Custom pricing requests**    | <20%          | 20-40%   | >40%  | Monthly         |
+| **Price objection rate**       | <30% of deals | 30-60%   | >60%  | Monthly         |
 
 **Action if Red:** Pricing model doesn't match buyer reality
 
@@ -962,19 +971,659 @@ At this price point: __
 
 ---
 
-# [ZONES 3-5 CONTINUE WITH SAME STRUCTURE FROM V3.1]
+# ZONE 3: TRAVELABILITY
 
-[Due to length constraints, Zones 3-5 follow the exact same structure as v3.1:
-- Zone 3: Travelability (8 decisions, buyer org movement)
-- Zone 4: Reachability (9 decisions, buyer discovery FIRST)
-- Zone 5: Closability (9 decisions, buyer approval process)
+**Can a champion carry this internally without you?**
 
-Each includes:
-- Outside-in decisions
-- Surfaces
-- Qualitative + Quantitative indicators
-- Scoring criteria
-- All implementation details from v3.1]
+---
+
+## Zone Job
+
+Enable the buyer champion to:
+
+- Explain this to others
+- Defend the decision
+- Move it forward inside their organization
+- Handle objections alone
+
+**Without founder on every call.**
+
+---
+
+## Outside-In Buyer Question
+
+> **"Can I sell this internally?"**
+
+*Listen for: champion story, internal ROI logic, implementation truth, stakeholder narrative, objection handling, political capital at risk.*
+
+---
+
+## Decisions (Must Be Explicitly Locked)
+
+### **Internal Movement (From Champion's Perspective):**
+
+| Decision                       | What It Locks                                                | Status                     |
+| ------------------------------ | ------------------------------------------------------------ | -------------------------- |
+| **Champion story**             | What champion says to their team (in their words)            | ⬜ LOCKED / FUZZY / MISSING |
+| **Internal ROI logic**         | How champion justifies cost/effort to others                 | ⬜ LOCKED / FUZZY / MISSING |
+| **Implementation truth**       | What REALLY has to happen on buyer side (not sales pitch)    | ⬜ LOCKED / FUZZY / MISSING |
+| **Stakeholder narrative**      | Who cares and why — per role (CEO, CFO, IT, etc.)            | ⬜ LOCKED / FUZZY / MISSING |
+| **Objection handling**         | Top 5 doubts + pre-built responses champion can use          | ⬜ LOCKED / FUZZY / MISSING |
+| **Risk reversal**              | What makes commit feel safe to buyer org (pilot, phased, guarantee) | ⬜ LOCKED / FUZZY / MISSING |
+| **Value formula**              | Concrete calculation champion can show others                | ⬜ LOCKED / FUZZY / MISSING |
+| **Champion political capital** | What champion risks by advocating (reputation, credibility)  | ⬜ LOCKED / FUZZY / MISSING |
+
+**Decision Score:** ___/8 decisions locked
+
+---
+
+## Implementation Friction Lens (Critical)
+
+**Explicitly surface:**
+
+- Who has to do work on the buyer side?
+- What access/data/change is required?
+- What do they fear will go wrong?
+- What must be true for week one to succeed?
+
+**This is where late-stage deals quietly die.**
+
+**Implementation Reality Check:**
+
+- [ ] Work required on buyer side is explicit (not hidden)
+- [ ] Timeline is realistic (not aspirational)
+- [ ] Stakeholder prep is clear (not assumed)
+- [ ] Week-1 success criteria defined (not vague)
+
+---
+
+## Surfaces (Where Decisions Must Visibly Appear)
+
+| Surface                                | Role                                | Status                   |
+| -------------------------------------- | ----------------------------------- | ------------------------ |
+| **Champion deck / internal explainer** | What champion forwards to team      | ⬜ EXISTS / WEAK / ABSENT |
+| **Value calculator / ROI tool**        | Buyer personalizes economics        | ⬜ EXISTS / WEAK / ABSENT |
+| **Architecture slide / diagram**       | How this actually works (technical) | ⬜ EXISTS / WEAK / ABSENT |
+| **Security / compliance overview**     | Legal/IT objections pre-handled     | ⬜ EXISTS / WEAK / ABSENT |
+| **Implementation outline**             | What happens Week 1-4 on buyer side | ⬜ EXISTS / WEAK / ABSENT |
+| **Demo recording**                     | Shareable, works without founder    | ⬜ EXISTS / WEAK / ABSENT |
+| **FAQ / objection doc**                | Top 10 objections + responses       | ⬜ EXISTS / WEAK / ABSENT |
+
+**Surface Score:** ___/7 surfaces exist and are strong
+
+---
+
+## Qualitative Indicators (Observe in Calls/Emails)
+
+### **POSITIVE SIGNALS:**
+
+✅ **Internal Movement:**
+
+- Buyer forwards materials within 48 hours of first call
+- Buyer introduces additional stakeholders proactively
+- Buyer uses your language in internal discussions
+- Buyer requests artifacts for internal sharing
+
+✅ **Implementation Surfaced Early:**
+
+- Buyer explicitly surfaces implementation concerns Week 1
+- Buyer asks about rollout/change management early
+- Buyer discusses internal stakeholder prep proactively
+- "What do we need to prepare?" asked early
+
+✅ **Champion Empowerment:**
+
+- Champion can explain value without you present
+- Champion handles objections using your materials
+- Champion drives internal timeline
+- "My team is excited" signal
+
+### **NEGATIVE SIGNALS:**
+
+❌ **Forwarding Fails:**
+
+- Materials forwarded but no follow-up
+- Champion delays introducing other stakeholders
+- "I need to simplify this for my team" pattern
+- Materials require explanation every time
+
+❌ **Implementation Ignored:**
+
+- Implementation questions delayed until late stage
+- Buyer surprised by work required ("I didn't realize...")
+- "We'll figure that out later" avoidance
+- Week-1 realities surface in Week 8
+
+❌ **Stakeholder Confusion:**
+
+- Stakeholder asks same questions champion answered
+- Multiple stakeholders hear different stories
+- Champion can't defend objections alone
+- Internal alignment breaks down
+
+### **TIMING EXPECTATIONS:**
+
+⏱️ **Strong:** Materials forwarded <48hrs, stakeholder intros within 1 week, implementation discussed Week 1-2  
+⏱️ **Weak:** Materials only forwarded after prompting, stakeholder intros delayed 3+ weeks, implementation surprise at proposal
+
+**How to Track:** Email tracking (forwarding behavior) + CRM notes (stakeholder intro timing)
+
+---
+
+## Quantitative Indicators (Track Systematically)
+
+### **Email Forwarding Tracking**
+
+**Tool:** Mixmax OR Mailtrack  
+**Setup Time:** 0 minutes (already set up from Zone 1)  
+**Setup:** Track forwarding behavior on sent materials
+
+| Metric                      | Green 🟢   | Yellow 🟡   | Red 🔴      | Check Frequency |
+| --------------------------- | --------- | ---------- | ---------- | --------------- |
+| **Email forward rate**      | >40%      | 20-40%     | <20%       | Per deal        |
+| **Time to first forward**   | <48 hrs   | 48-96 hrs  | >96 hrs    | Per deal        |
+| **Multi-stakeholder opens** | >2 unique | 1-2 unique | 0-1 unique | Per deal        |
+
+**Action if Red:** Materials don't travel, champion can't share effectively
+
+---
+
+### **Demo Recording Analytics**
+
+**Tool:** Loom (free: 25 videos) OR Vidyard OR Wistia  
+**Setup Time:** 10 minutes  
+**Setup:** Record demo, share trackable link, monitor views
+
+| Metric                             | Green 🟢 | Yellow 🟡 | Red 🔴 | Check Frequency |
+| ---------------------------------- | ------- | -------- | ----- | --------------- |
+| **Demo view rate** (sent → viewed) | >70%    | 50-70%   | <50%  | Per deal        |
+| **Completion rate**                | >60%    | 40-60%   | <40%  | Per deal        |
+| **Re-watch rate**                  | >30%    | 15-30%   | <15%  | Per deal        |
+| **Share rate** (viewer → forward)  | >25%    | 10-25%   | <10%  | Per deal        |
+
+**Action if Red:** Demo requires voiceover, doesn't work standalone
+
+---
+
+### **Champion Deck Downloads**
+
+**Tool:** DocSend OR Notion share tracking  
+**Setup Time:** 5 minutes  
+**Setup:** Upload champion deck, share trackable link
+
+| Metric                               | Green 🟢 | Yellow 🟡 | Red 🔴  | Check Frequency |
+| ------------------------------------ | ------- | -------- | ------ | --------------- |
+| **Download rate**                    | >80%    | 60-80%   | <60%   | Per deal        |
+| **Unique viewers** (beyond champion) | >2      | 1-2      | 0-1    | Per deal        |
+| **Time per viewer**                  | >4 min  | 2-4 min  | <2 min | Per deal        |
+
+**Action if Red:** Champion not sharing internally, or materials not engaging
+
+---
+
+### **CRM Multi-Threading Data**
+
+**Tool:** Pipedrive/Attio/Notion  
+**Setup Time:** 0 minutes  
+**Setup:** Track contacts per deal in CRM
+
+| Metric                           | Green 🟢                           | Yellow 🟡  | Red 🔴    | Check Frequency |
+| -------------------------------- | --------------------------------- | --------- | -------- | --------------- |
+| **Multi-threading rate**         | >70% deals have 2+ stakeholders   | 50-70%    | <50%     | Weekly          |
+| **Champion success rate**        | >60% champion-engaged deals close | 40-60%    | <40%     | Monthly         |
+| **Deal velocity after champion** | <4 weeks champion → contract      | 4-8 weeks | >8 weeks | Monthly         |
+
+**Action if Red:** Story doesn't travel, founder dependency high
+
+---
+
+## Zone 3 Scoring
+
+**🟢 GREEN (12-15 points):** Story travels, champion empowered, materials work standalone  
+**🟡 YELLOW (8-11 points):** Story founder-dependent, champion needs support  
+**🔴 RED (0-7 points):** Story doesn't travel, only founder can sell
+
+---
+
+## Probe Questions If Fuzzy
+
+- "What does your homepage say right now?"
+- "Can your team close without you?"
+- "What happens when the champion tries to sell it internally?"
+- "Who else needs to say yes besides your champion?"
+- "What materials do you send when someone asks 'what is this'?"
+- "Walk me through what happens in week 1 after they sign"
+- "What's the objection that comes up in almost every deal?"
+- "What does the champion risk politically by advocating for this?"
+
+---
+
+# ZONE 4: REACHABILITY
+
+**Can you reliably reach more of the right buyers?**
+
+---
+
+## Zone Job
+
+Make the story:
+
+- Discoverable where buyers search
+- Systematic (not founder-network-dependent)
+- Credible when buyers find you
+
+**Buyer discovery path FIRST. Seller reach tactics SECOND.**
+
+---
+
+## Outside-In Buyer Question
+
+> **"How did I find this — and why did I engage?"**
+
+*Listen for: where buyer searches, what buyer searches for, who buyer asks, what content buyer consumes, how buyer evaluates credibility.*
+
+---
+
+## Decisions (Must Be Explicitly Locked)
+
+### **Buyer Discovery (Outside-In — PRIMARY):**
+
+| Decision                      | What It Locks                                     | Status                     |
+| ----------------------------- | ------------------------------------------------- | -------------------------- |
+| **Where buyer searches**      | Channels buyer uses when they have this problem   | ⬜ LOCKED / FUZZY / MISSING |
+| **What buyer searches for**   | Keywords, questions, phrases buyer types          | ⬜ LOCKED / FUZZY / MISSING |
+| **Trigger events**            | What causes buyer to search NOW (not "someday")   | ⬜ LOCKED / FUZZY / MISSING |
+| **Who buyer asks**            | Trusted sources buyer goes to for recommendations | ⬜ LOCKED / FUZZY / MISSING |
+| **Buyer content consumption** | What buyer reads/watches before deciding          | ⬜ LOCKED / FUZZY / MISSING |
+| **Credibility signals**       | How buyer evaluates trust (reviews, logos, proof) | ⬜ LOCKED / FUZZY / MISSING |
+
+### **Seller Reach (Inside-Out — SECONDARY):**
+
+| Decision                | What It Locks                                    | Status                     |
+| ----------------------- | ------------------------------------------------ | -------------------------- |
+| **Channel selection**   | Where to show up (based on buyer behavior above) | ⬜ LOCKED / FUZZY / MISSING |
+| **Message per channel** | What to say where (adapted to channel)           | ⬜ LOCKED / FUZZY / MISSING |
+| **Channel economics**   | CAC targets per channel (what you can afford)    | ⬜ LOCKED / FUZZY / MISSING |
+
+**Decision Score:** ___/9 decisions locked
+
+---
+
+## Surfaces (Where Decisions Must Visibly Appear)
+
+| Surface                        | Role                                                 | Status                   |
+| ------------------------------ | ---------------------------------------------------- | ------------------------ |
+| **Website (SEO optimized)**    | Inbound discovery point where buyer searches         | ⬜ EXISTS / WEAK / ABSENT |
+| **Outbound messages**          | First contact (email, LinkedIn) using buyer language | ⬜ EXISTS / WEAK / ABSENT |
+| **LinkedIn profile + content** | Warm-up before contact, thought leadership           | ⬜ EXISTS / WEAK / ABSENT |
+| **Content library**            | Blog, guides addressing buyer search queries         | ⬜ EXISTS / WEAK / ABSENT |
+| **Partner referral kit**       | If partner-led: what partner says to buyer           | ⬜ EXISTS / WEAK / ABSENT |
+| **Review profiles**            | G2, Capterra, TrustRadius (if buyer checks)          | ⬜ EXISTS / WEAK / ABSENT |
+| **Event/conference presence**  | If event strategy: booth, talk, materials            | ⬜ EXISTS / WEAK / ABSENT |
+
+**Surface Score:** ___/7 surfaces exist and are strong
+
+---
+
+## Qualitative Indicators (Observe in Calls/Emails)
+
+### **POSITIVE SIGNALS:**
+
+✅ **Multi-Touch Discovery:**
+
+- Buyer mentions seeing you in multiple places ("I saw your LinkedIn, then checked site")
+- Buyer self-qualifies using your ICP language
+- Buyer references trigger event you target ("We just hit [event]")
+- Channel attribution clear (buyer knows how they found you)
+
+✅ **Message Resonance:**
+
+- Buyer references specific language from outreach/content
+- Buyer asks "how did you know we're dealing with [pain]?"
+- Buyer forwards content to colleagues
+- Buyer engages with multiple content pieces before booking
+
+✅ **Quality Self-Selection:**
+
+- Inbound leads self-qualify ("We're the [ICP you defined]")
+- Wrong-fit leads decline before call
+- Outbound gets replies from decision-makers (not gatekeepers)
+
+### **NEGATIVE SIGNALS:**
+
+❌ **Discovery Gaps:**
+
+- Buyer found you by accident ("Never heard of you before")
+- Buyer unclear on what triggered their search
+- "How did I not hear about you sooner?" pattern
+- Only one discovery touchpoint (no multi-touch)
+
+❌ **Message Mismatch:**
+
+- Different channels say different things (observed by buyer)
+- Buyer references competitor messaging ("I thought you were like [X]")
+- Message doesn't match trigger/pain they have
+- Buyer confused about what you actually do
+
+❌ **Quality Issues:**
+
+- Wrong-fit leads book calls frequently
+- Outbound replies from gatekeepers only
+- "Let me forward this to the right person" pattern
+- High meeting-to-qualified ratio
+
+### **TIMING EXPECTATIONS:**
+
+⏱️ **Strong:** Multi-touch engagement before first call, buyer researches independently  
+⏱️ **Weak:** Single touchpoint discovery, no independent research, "Who are you again?"
+
+**How to Track:** Call notes (ask "How did you find us?") + CRM source tracking
+
+---
+
+## Quantitative Indicators (Track Systematically)
+
+### **Outbound Analytics**
+
+**Tool:** Lemlist ($59/mo) OR Apollo ($49/mo) OR Mixmax ($29/mo)  
+**Setup Time:** 15 minutes  
+**Setup:** Create campaign, track replies and meetings
+
+| Metric                                       | Green 🟢 | Yellow 🟡 | Red 🔴 | Check Frequency       |
+| -------------------------------------------- | ------- | -------- | ----- | --------------------- |
+| **Reply rate** (ICP list)                    | >30%    | 15-30%   | <15%  | Per campaign (weekly) |
+| **Positive reply rate**                      | >15%    | 8-15%    | <8%   | Per campaign          |
+| **Meeting booking rate**                     | >10%    | 5-10%    | <5%   | Per campaign          |
+| **ICP accuracy** (replies from right people) | >70%    | 50-70%   | <50%  | Per campaign          |
+
+**Action if Red:** ICP unclear, message not resonating, targeting wrong people
+
+---
+
+### **Inbound Analytics**
+
+**Tool:** PostHog + CRM integration  
+**Setup Time:** 10 minutes  
+**Setup:** Track demo request submissions, integrate with CRM for qualification
+
+| Metric                          | Green 🟢     | Yellow 🟡   | Red 🔴         | Check Frequency |
+| ------------------------------- | ----------- | ---------- | ------------- | --------------- |
+| **Inbound demo requests/month** | Trending up | Flat       | Trending down | Weekly          |
+| **ICP qualification rate**      | >60%        | 40-60%     | <40%          | Weekly          |
+| **Source diversity**            | 3+ channels | 2 channels | 1 channel     | Monthly         |
+| **Organic search traffic**      | Trending up | Flat       | Trending down | Weekly          |
+
+**Action if Red:** Dependence on founder network, no systematic discovery
+
+---
+
+### **LinkedIn Analytics**
+
+**Tool:** LinkedIn native analytics (free)  
+**Setup Time:** 0 minutes  
+**Setup:** Already built-in
+
+| Metric                           | Green 🟢 | Yellow 🟡 | Red 🔴 | Check Frequency |
+| -------------------------------- | ------- | -------- | ----- | --------------- |
+| **Profile views/week**           | >100    | 50-100   | <50   | Weekly          |
+| **Search appearances**           | >50     | 25-50    | <25   | Weekly          |
+| **Post impressions**             | >1000   | 500-1000 | <500  | Per post        |
+| **Connection requests accepted** | >60%    | 40-60%   | <40%  | Weekly          |
+
+**Action if Red:** Not showing up in searches, content not resonating
+
+---
+
+### **Content Analytics (If Applicable)**
+
+**Tool:** Medium/Substack analytics OR PostHog for blog  
+**Setup Time:** 5 minutes  
+**Setup:** Track read time, email captures, shares
+
+| Metric                 | Green 🟢 | Yellow 🟡 | Red 🔴  | Check Frequency |
+| ---------------------- | ------- | -------- | ------ | --------------- |
+| **Avg. read time**     | >3 min  | 1-3 min  | <1 min | Per piece       |
+| **Email capture rate** | >10%    | 5-10%    | <5%    | Per piece       |
+| **Share rate**         | >5%     | 2-5%     | <2%    | Per piece       |
+
+**Action if Red:** Content not valuable, not reaching ICP
+
+---
+
+## Zone 4 Scoring
+
+**🟢 GREEN (12-15 points):** Buyers find you systematically, multiple channels working  
+**🟡 YELLOW (8-11 points):** Network-dependent, limited channel diversity  
+**🔴 RED (0-7 points):** Only founder network, no systematic discovery
+
+---
+
+## Probe Questions If Fuzzy
+
+- "Where did your last 5 customers come from?"
+- "What do buyers search for when they have this problem?"
+- "What triggers a buyer to search for this NOW?"
+- "Who do buyers ask for recommendations in this category?"
+- "What content do they consume before deciding?"
+- "How do buyers evaluate credibility when they find you?"
+- "Show me your outbound message template"
+- "What can you afford to spend to acquire a customer?"
+
+---
+
+# ZONE 5: CLOSABILITY
+
+**Can the deal pass approval and get signed?**
+
+---
+
+## Zone Job
+
+Make "yes" feel:
+
+- Safe (risk-mitigated)
+- Procedurally simple (clear path)
+- Inevitable (momentum maintained)
+
+---
+
+## Outside-In Buyer Question
+
+> **"What needs to happen for this to become real?"**
+
+*Listen for: stakeholder map, approval criteria, decision process, procurement path, legal/commercial terms, budget cycle, risk reversal.*
+
+---
+
+## Decisions (Must Be Explicitly Locked)
+
+### **Buyer Approval Process (From Buyer Org Perspective):**
+
+| Decision                 | What It Locks                                                | Status                     |
+| ------------------------ | ------------------------------------------------------------ | -------------------------- |
+| **Stakeholder map**      | Who signs, who blocks, who influences (buyer org chart)      | ⬜ LOCKED / FUZZY / MISSING |
+| **Approval criteria**    | What each approver needs to see to say yes                   | ⬜ LOCKED / FUZZY / MISSING |
+| **Decision process**     | How this buyer type approves purchases (steps/sequence)      | ⬜ LOCKED / FUZZY / MISSING |
+| **Procurement path**     | Legal/procurement requirements from buyer side               | ⬜ LOCKED / FUZZY / MISSING |
+| **Budget cycle**         | When buyer can actually buy (fiscal year, budget freeze)     | ⬜ LOCKED / FUZZY / MISSING |
+| **Commercial terms**     | What buyer needs in contract (standard vs. custom)           | ⬜ LOCKED / FUZZY / MISSING |
+| **Risk reversal**        | What makes commit feel safe (pilot/guarantee/phased rollout) | ⬜ LOCKED / FUZZY / MISSING |
+| **Implementation start** | What happens Week 1 after signature on buyer side            | ⬜ LOCKED / FUZZY / MISSING |
+| **Next-step ownership**  | Who owns what by when (mutual close plan)                    | ⬜ LOCKED / FUZZY / MISSING |
+
+**Decision Score:** ___/9 decisions locked
+
+---
+
+## Implementation Friction Lens (Critical)
+
+**Explicitly surface BEFORE proposal:**
+
+- Who has to do work on buyer side?
+- What access/data/change is required?
+- What permissions/approvals needed?
+- What do they fear will go wrong?
+- What must be true for Week 1 to succeed?
+
+**Week-1 Reality Check:**
+
+- [ ] Buyer knows exactly who does what Week 1
+- [ ] Access/permissions requirements mapped
+- [ ] Implementation team identified (not just decision-makers)
+- [ ] Success criteria for Week 1 defined
+
+**Common late-stage failure:**
+
+> "Legal surprised by terms"  
+> "Implementation team didn't know this was coming"  
+> "We need security review we didn't plan for"
+
+---
+
+## Surfaces (Where Decisions Must Visibly Appear)
+
+| Surface                         | Role                                            | Status                   |
+| ------------------------------- | ----------------------------------------------- | ------------------------ |
+| **Mutual close plan**           | Shared timeline with ownership (buyer + seller) | ⬜ EXISTS / WEAK / ABSENT |
+| **Proposal / SOW**              | Scope, deliverables, timeline, price            | ⬜ EXISTS / WEAK / ABSENT |
+| **Standard contract**           | Legal terms, redline boundaries                 | ⬜ EXISTS / WEAK / ABSENT |
+| **Security documentation**      | Compliance, data handling, SLAs                 | ⬜ EXISTS / WEAK / ABSENT |
+| **Pilot definition**            | If pilot: scope, duration, success criteria     | ⬜ EXISTS / WEAK / ABSENT |
+| **Payment terms sheet**         | When/how buyer pays                             | ⬜ EXISTS / WEAK / ABSENT |
+| **Implementation kickoff deck** | What happens after signature (buyer side)       | ⬜ EXISTS / WEAK / ABSENT |
+
+**Surface Score:** ___/7 surfaces exist and are strong
+
+---
+
+## Qualitative Indicators (Observe in Calls/Emails)
+
+### **POSITIVE SIGNALS:**
+
+✅ **Process Clarity:**
+
+- Buyer agrees to mutual close plan with dates
+- Legal/procurement engaged proactively (before proposal)
+- Timeline discussed explicitly with milestones
+- Buyer asks implementation-start questions early
+
+✅ **Implementation Prep:**
+
+- Buyer identifies implementation team early
+- Buyer discusses internal prep work needed
+- Buyer maps access/permissions requirements
+- "What do we need to prepare for Week 1?" asked
+
+✅ **Momentum Maintenance:**
+
+- Buyer drives next steps (not seller)
+- Stakeholder alignment visible
+- Procurement/legal moving in parallel (not sequential)
+- "When can we start?" urgency signal
+
+### **NEGATIVE SIGNALS:**
+
+❌ **Process Surprise:**
+
+- Procurement/legal surprised by deal existence
+- "We need to involve [team] we didn't mention" pattern
+- Multiple red-line rounds
+- "This wasn't approved yet?" confusion
+
+❌ **Implementation Ignored:**
+
+- Implementation questions delayed until post-signature
+- Buyer unclear who owns Week 1 work
+- Access/permissions surprise ("We need WHAT?")
+- Implementation team learns about this after signature
+
+❌ **Momentum Loss:**
+
+- Verbal yes → signature takes 8+ weeks
+- Buyer stops driving next steps
+- "We're working on internal approvals" black hole
+- Timeline slips without explanation
+
+### **TIMING EXPECTATIONS:**
+
+⏱️ **Strong:** Legal/procurement engaged before proposal, implementation discussed Week 3-4, verbal yes → signature <4 weeks  
+⏱️ **Weak:** Legal/procurement surprise at proposal stage, implementation discussed post-signature, verbal yes → signature >8 weeks
+
+**How to Track:** CRM close plan tracking + deal stage timestamps
+
+---
+
+## Quantitative Indicators (Track Systematically)
+
+### **Mutual Close Plan Tracking**
+
+**Tool:** Notion template OR Google Sheets OR CRM custom fields  
+**Setup Time:** 10 minutes  
+**Setup:** Create template with milestones, share with buyer, track completion
+
+| Metric                           | Green 🟢 | Yellow 🟡 | Red 🔴 | Check Frequency |
+| -------------------------------- | ------- | -------- | ----- | --------------- |
+| **Close plan agreement rate**    | >80%    | 60-80%   | <60%  | Per deal        |
+| **Milestone completion on-time** | >75%    | 50-75%   | <50%  | Weekly          |
+| **Buyer-driven updates**         | >50%    | 25-50%   | <25%  | Per deal        |
+
+**Action if Red:** Buyer not committed, deal stalling, no mutual ownership
+
+---
+
+### **Contract Analytics**
+
+**Tool:** DocSend OR PandaDoc  
+**Setup Time:** 5 minutes  
+**Setup:** Upload contract, track views and time
+
+| Metric                   | Green 🟢  | Yellow 🟡  | Red 🔴    | Check Frequency |
+| ------------------------ | -------- | --------- | -------- | --------------- |
+| **Contract view rate**   | >90%     | 70-90%    | <70%     | Per deal        |
+| **Time in legal review** | <2 weeks | 2-4 weeks | >4 weeks | Per deal        |
+| **Redline rounds**       | 0-1      | 2-3       | >3       | Per deal        |
+
+**Action if Red:** Contract terms surprising, procurement not prepared
+
+---
+
+### **CRM Deal Stage Velocity**
+
+**Tool:** Pipedrive/Attio/Notion  
+**Setup Time:** 0 minutes  
+**Setup:** Track deal stage transitions in CRM
+
+| Metric                         | Green 🟢  | Yellow 🟡  | Red 🔴    | Check Frequency |
+| ------------------------------ | -------- | --------- | -------- | --------------- |
+| **Proposal → Negotiation**     | <1 week  | 1-2 weeks | >2 weeks | Weekly          |
+| **Negotiation → Legal**        | <1 week  | 1-2 weeks | >2 weeks | Weekly          |
+| **Legal → Signature**          | <2 weeks | 2-4 weeks | >4 weeks | Weekly          |
+| **Verbal yes → Signed**        | <4 weeks | 4-8 weeks | >8 weeks | Monthly         |
+| **Deal stage regression rate** | <10%     | 10-25%    | >25%     | Monthly         |
+
+**Action if Red:** Process not clear, stakeholders not aligned
+
+---
+
+## Zone 5 Scoring
+
+**🟢 GREEN (12-15 points):** Deals close predictably, process clear, momentum maintained  
+**🟡 YELLOW (8-11 points):** Close process inconsistent, some deals stall  
+**🔴 RED (0-7 points):** Deals stall at close, procurement surprises, long cycles
+
+---
+
+## Probe Questions If Fuzzy
+
+- "Who else needs to say yes besides your champion?"
+- "What does each approver need to see to approve?"
+- "What's the procurement process at companies like yours?"
+- "When does your budget cycle allow for new purchases?"
+- "What objection comes up in almost every deal?"
+- "What's your pilot or low-risk first step?"
+- "Walk me through what happens Week 1 after they sign"
+- "Show me your standard contract"
+- "What makes a deal get stuck at the approval stage?"
 
 ---
 
