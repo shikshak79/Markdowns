@@ -1,10 +1,10 @@
-# Buying Path X-RAY Architecture v4.0
+# Buying Path X-RAY Architecture v5.0
 
 ## Surface-First Outside-In Diagnostic System
 
 **Purpose:** Systematic GTM diagnostic for B2B ventures  
 **Design:** Surface audit → Decision inference → Indicator validation → Results proof  
-**Version:** 4.0 — March 2026
+**Version:** 5.0 — March 2026
 
 ---
 
@@ -33,6 +33,19 @@ Start with what you can SEE (surfaces), not what founder SAYS (beliefs).
 
 Surfaces don't lie. Decisions are invisible. Start with what's real.
 
+### The PULL Principle
+
+PULL exists independent of your product. The buyer has a project whether you exist or not.
+
+- **P = Project** — Something on their to-do list they're trying to accomplish
+- **U = Unavoidable** — It's their priority right now, not theoretical
+- **L = Look** — What options they're actively considering
+- **L = Lacking** — Why those options are inadequate
+
+When Q1 (Project), Q9 (Look), and Q10 (Lacking) are all missing from a surface, it signals a **product-centric surface** — a PULL problem, not a copy problem.
+
+**Demand intensity test:** "Hell yes, where have you been?" (intense) vs. "I can see how this would be useful" (lukewarm). If lukewarm, diagnose upstream — wrong project, not unavoidable, or lacking not acute enough.
+
 ---
 
 # LAYER 1: REVENUE LOOP STAGES
@@ -53,19 +66,20 @@ The buyer journey through Getting to Yes.
 
 # LAYER 2: DECISIONS
 
-28 decisions organized by TYPE (build sequence), not zone.
+29 decisions organized by TYPE (build sequence), not zone.
 
 ## TYPE A: POSITIONING
 
 *Lock first. Who you are, why you win.*
 
-| #    | Decision        | What It Locks                                  | Serves Stages       |
-| ---- | --------------- | ---------------------------------------------- | ------------------- |
-| A1   | **Category**    | What bucket buyer places you in                | Land                |
-| A2   | **Customer**    | Who this is for — ICP boundary + disqualifiers | Land, Self-Select   |
-| A3   | **Alternative** | What buyer uses today + why it fails           | Make Sense, Compare |
-| A4   | **Difference**  | Why buyer chooses this over alternative        | Make Sense, Compare |
-| A5   | **Outcome**     | What buyer can now do that they couldn't       | Make Sense          |
+| #    | Decision           | What It Locks                                                           | Serves Stages       |
+| ---- | ------------------ | ----------------------------------------------------------------------- | ------------------- |
+| A1   | **Category**       | What bucket buyer places you in                                         | Land                |
+| A2   | **Customer**       | Who this is for — ICP boundary + disqualifiers                          | Land, Self-Select   |
+| A3   | **Alternative**    | What buyer uses today + why it fails                                    | Make Sense, Compare |
+| A4   | **Difference**     | Why buyer chooses this over alternative                                 | Make Sense, Compare |
+| A5   | **Outcome**        | What buyer can now do that they couldn't                                | Make Sense          |
+| A6   | **Wedge Use Case** | The narrow entry point buyer would start with — specific enough to visualize Week 1 | Self-Select         |
 
 ### Scoring Criteria
 
@@ -98,6 +112,12 @@ The buyer journey through Getting to Yes.
 - 🟢 LOCKED: Measurable result buyer achieves ("10x faster analysis, decisions in hours not weeks")
 - 🟡 FUZZY: Aspiration without metric ("better decisions")
 - 🔴 MISSING: No outcome stated
+
+**Wedge Use Case:**
+
+- 🟢 LOCKED: Specific entry point visible ("Start by connecting your Notion workspace — first insights in 10 minutes")
+- 🟡 FUZZY: Generic starting point ("Get started easily")
+- 🔴 MISSING: No entry point visible, buyer can't visualize Week 1
 
 ---
 
@@ -336,16 +356,16 @@ Buyer won't commit unless they can visualize what happens after "yes." These are
 
 | Type                  | Count  | Build Sequence |
 | --------------------- | ------ | -------------- |
-| A: Positioning        | 5      | Lock first     |
+| A: Positioning        | 6      | Lock first     |
 | B: Trust              | 4      | Lock second    |
 | C: Movement           | 3      | Lock third     |
 | D: Activation         | 3      | Lock last      |
-| **Core Total**        | **15** | —              |
+| **Core Total**        | **16** | —              |
 | E: Economic           | 5      | Parallel track |
 | F: Discovery          | 4      | Parallel track |
 | G: Approval           | 4      | Parallel track |
 | **Operational Total** | **13** | —              |
-| **TOTAL**             | **28** | —              |
+| **TOTAL**             | **29** | —              |
 
 ---
 
@@ -412,25 +432,28 @@ If <3 pass → materials require founder on every call. Travelability is RED.
 
 # LAYER 5: QUESTION SETS
 
-## HOMEPAGE: 15 Questions
+## HOMEPAGE: 18 Questions
 
-| Stage           | #    | Buyer Question                  | Decision Tested                |
-| --------------- | ---- | ------------------------------- | ------------------------------ |
-| **LAND**        | Q1   | What is this? (3-second read)   | Category                       |
-|                 | Q2   | What category is this in?       | Category                       |
-| **MAKE SENSE**  | Q3   | What pain is worth a switch?    | Alternative, Outcome           |
-|                 | Q4   | Why does this matter now?       | Alternative                    |
-| **SELF-SELECT** | Q5   | Is this for my team?            | Customer                       |
-|                 | Q6   | Do I see my use case?           | Customer, Outcome              |
-| **COMPARE**     | Q7   | Do I understand the approach?   | Difference                     |
-|                 | Q8   | What result do I get?           | Outcome                        |
-|                 | Q9   | Why you vs what I use today?    | Alternative, Difference        |
-| **VALIDATE**    | Q10  | Does it work for real teams?    | Proof Type                     |
-|                 | Q11  | Can I trust the decision?       | Proof Type, Primary Risk       |
-|                 | Q12  | How much effort is this?        | Effort Shape                   |
-| **COMMIT**      | Q13  | What's the first step?          | First Step                     |
-|                 | Q14  | What happens after I book?      | Start Recipe, First Value Path |
-|                 | Q15  | Does this feel low-risk to try? | Risk Reversal, Primary Risk    |
+| Stage           | #    | Buyer Question                                 | Tests                    | Explicit                                           | Partial                                 | Missing                              |
+| --------------- | ---- | ---------------------------------------------- | ------------------------ | -------------------------------------------------- | --------------------------------------- | ------------------------------------ |
+| **LAND**        | Q1   | Do I see my project here?                      | Project / JTBD           | Hero names a task I recognize as mine              | Names general area, not specific project | Starts with product, not my task     |
+|                 | Q2   | What is this? (3-second read)                  | Above-fold clarity       | Can parse in 3 seconds                             | Requires re-reading                     | Confused after 10 seconds            |
+|                 | Q3   | What category is this in?                      | Mental shelf             | Bucket clear ("replaces X")                        | Category implied, not named             | Can't place this                     |
+| **MAKE SENSE**  | Q4   | What pain is worth a switch?                   | Pain                     | Specific pain stated                               | Generic pain ("better decisions")       | No pain mentioned                    |
+|                 | Q5   | What does this cost me if I don't fix it?      | Stakes                   | Quantified cost ("10 hrs/week wasted")             | Cost implied, not stated                | Friction only, no stakes             |
+|                 | Q6   | What trigger makes this unavoidable now?       | Urgency                  | Specific trigger named                             | Vague urgency ("don't get left behind") | No reason to act today               |
+| **SELECT**      | Q7   | Is this for my team?                           | ICP boundary             | Role + company type named                          | Too broad ("for companies")             | No ICP mentioned                     |
+|                 | Q8   | Do I see where I'd start?                      | Wedge entry point        | Specific first use case shown                      | Generic starting point                  | No entry point visible               |
+| **COMPARE**     | Q9   | What alternatives am I comparing this to?      | Look                     | Names specific alternatives                        | Generic reference ("legacy tools")      | No alternatives named                |
+|                 | Q10  | Why do those alternatives fall short?          | Lacking                  | Specific failure mode articulated                  | Vague inadequacy                        | No articulation of why current fails |
+|                 | Q11  | Do I understand the approach?                  | Mechanism                | Mechanism clear                                    | Capability list only                    | No approach explanation              |
+|                 | Q12  | What result do I get?                          | Outcome                  | Measurable result stated                           | Aspiration only                         | No outcome stated                    |
+| **VALIDATE**    | Q13  | Does it work for real teams?                   | Proof                    | Customer case with metrics                         | Logo only, no story                     | No proof                             |
+|                 | Q14  | Can I trust the decision?                      | Trust                    | Risk addressed ("SOC 2")                           | Generic trust signal                    | No trust elements                    |
+|                 | Q15  | How much effort is this?                       | Effort                   | Timeline clear                                     | Effort implied                          | No effort preview                    |
+| **COMMIT**      | Q16  | How do we start, exactly?                      | First step               | Safe first step clear                              | CTA exists but unclear                  | No clear next step                   |
+|                 | Q17  | What happens after I book?                     | Activation preview       | Post-booking path clear                            | Vague onboarding                        | No activation preview                |
+|                 | Q18  | Does this feel low-risk to try?                | Risk reversal            | Risk reversal clear                                | Low commitment implied                  | No risk mitigation                   |
 
 ### Homepage Scoring
 
@@ -442,9 +465,36 @@ If <3 pass → materials require founder on every call. Travelability is RED.
 
 **Thresholds:**
 
-- 🟢 GREEN: 12+ explicit, <3 missing
-- 🟡 YELLOW: 8-11 explicit, 3-7 missing
-- 🔴 RED: <8 explicit, >7 missing
+- 🟢 GREEN: 14+ explicit, <4 missing
+- 🟡 YELLOW: 10-13 explicit, 4-8 missing
+- 🔴 RED: <10 explicit, >8 missing
+
+### PULL Diagnostic Pattern
+
+When Q1 (Project), Q9 (Look), and Q10 (Lacking) are all Missing → surface is **product-centric**, not buyer-centric. Root cause is PULL, not copy. Fix requires structural reframe, not wordsmithing.
+
+### Question → Decision Mapping (Homepage)
+
+| Question | Primary Decision | Secondary |
+|----------|------------------|-----------|
+| Q1 Project | JTBD (context) | Outcome |
+| Q2 What is this | Category | — |
+| Q3 Category | Category | — |
+| Q4 Pain | Alternative | Outcome |
+| Q5 Stakes | Cost of Alternative | — |
+| Q6 Trigger | Trigger Events | — |
+| Q7 ICP | Customer | Owner/Champion |
+| Q8 Wedge | Wedge Use Case | — |
+| Q9 Look | Alternative | — |
+| Q10 Lacking | Alternative | — |
+| Q11 Approach | Difference | — |
+| Q12 Result | Outcome | — |
+| Q13 Proof | Proof Type | — |
+| Q14 Trust | Primary Risk | — |
+| Q15 Effort | Time to Value | First Value Path |
+| Q16 First step | First Step | — |
+| Q17 Activation | Start Recipe | — |
+| Q18 Low-risk | Risk Reversal | — |
 
 ---
 
@@ -577,7 +627,7 @@ Situation recognition: "Which of these sounds closest to where you are?"
 
 ### STEP 1: Surface Audit (30 min)
 
-- Pull up homepage, score 15 questions
+- Pull up homepage, score 18 questions
 - Pull up deck slides 1-5, score 10 questions
 - Review outbound sample, score 5 questions
 - If demo exists, review opening 3 min, score 7 questions
@@ -613,41 +663,45 @@ Date: ___
 
 SURFACE AUDIT
 
-Homepage:      __/15 explicit   Status: 🟢/🟡/🔴
+Homepage:      __/18 explicit   Status: 🟢/🟡/🔴
 Pitch Deck:    __/10 explicit   Status: 🟢/🟡/🔴
 Outbound:      __/5 explicit    Status: 🟢/🟡/🔴
 Demo Opening:  __/7 explicit    Status: 🟢/🟡/🔴
 
 Earliest break: _________ stage
 
+PULL Diagnostic: Q1 __ Q9 __ Q10 __
+[If all three Missing → Product-centric surface, PULL problem]
+
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 DECISION LEDGER
 
 POSITIONING (A):
-  Category:    🟢/🟡/🔴
-  Customer:    🟢/🟡/🔴
-  Alternative: 🟢/🟡/🔴
-  Difference:  🟢/🟡/🔴
-  Outcome:     🟢/🟡/🔴
+  Category:       🟢/🟡/🔴
+  Customer:       🟢/🟡/🔴
+  Alternative:    🟢/🟡/🔴
+  Difference:     🟢/🟡/🔴
+  Outcome:        🟢/🟡/🔴
+  Wedge Use Case: 🟢/🟡/🔴
 
 TRUST (B):
-  Owner/Champ: 🟢/🟡/🔴
-  Proof Type:  🟢/🟡/🔴
-  Effort Shape:🟢/🟡/🔴
-  Primary Risk:🟢/🟡/🔴
+  Owner/Champ:  🟢/🟡/🔴
+  Proof Type:   🟢/🟡/🔴
+  Effort Shape: 🟢/🟡/🔴
+  Primary Risk: 🟢/🟡/🔴
 
 MOVEMENT (C):
-  First Step:  🟢/🟡/🔴
-  Start Recipe:🟢/🟡/🔴
-  Risk Reversal:🟢/🟡/🔴
+  First Step:    🟢/🟡/🔴
+  Start Recipe:  🟢/🟡/🔴
+  Risk Reversal: 🟢/🟡/🔴
 
 ACTIVATION (D):
   Activation Moment: 🟢/🟡/🔴
   First Value Path:  🟢/🟡/🔴
   Time to Value:     🟢/🟡/🔴
 
-Core Decisions Locked: __/15
+Core Decisions Locked: __/16
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -681,24 +735,26 @@ What to fix this week:
 
 Quick reference: which questions test which decisions.
 
-| Decision              | Homepage Q | Deck Q | Outbound Q | Demo Q |
-| --------------------- | ---------- | ------ | ---------- | ------ |
-| **Category**          | Q1, Q2     | D1     | O3         | M1     |
-| **Customer**          | Q5, Q6     | D2     | O1         | —      |
-| **Alternative**       | Q3, Q4, Q9 | D3, D4 | —          | M2     |
-| **Difference**        | Q7         | D5     | —          | M3     |
-| **Outcome**           | Q3, Q6, Q8 | D3, D6 | O4         | M1, M4 |
-| **Owner/Champion**    | Q5         | D2, D7 | O1         | —      |
-| **Proof Type**        | Q10, Q11   | D7, D8 | O3         | M5     |
-| **Effort Shape**      | Q12        | —      | —          | —      |
-| **Primary Risk**      | Q11, Q15   | D8     | —          | M6     |
-| **First Step**        | Q13        | D9     | O5         | M7     |
-| **Start Recipe**      | Q14        | D10    | —          | M7     |
-| **Risk Reversal**     | Q15        | —      | —          | —      |
-| **Activation Moment** | Q14        | D10    | —          | —      |
-| **First Value Path**  | Q14        | D10    | —          | —      |
-| **Time to Value**     | Q12        | —      | —          | —      |
-| **Trigger Events**    | Q4         | D4     | O2         | —      |
+| Decision              | Homepage Q     | Deck Q | Outbound Q | Demo Q |
+| --------------------- | -------------- | ------ | ---------- | ------ |
+| **Category**          | Q2, Q3         | D1     | O3         | M1     |
+| **Customer**          | Q7             | D2     | O1         | —      |
+| **Alternative**       | Q4, Q9, Q10    | D3, D4 | —          | M2     |
+| **Difference**        | Q11            | D5     | —          | M3     |
+| **Outcome**           | Q4, Q12        | D3, D6 | O4         | M1, M4 |
+| **Wedge Use Case**    | Q8             | —      | —          | —      |
+| **Owner/Champion**    | Q7             | D2, D7 | O1         | —      |
+| **Proof Type**        | Q13, Q14       | D7, D8 | O3         | M5     |
+| **Effort Shape**      | Q15            | —      | —          | —      |
+| **Primary Risk**      | Q14, Q18       | D8     | —          | M6     |
+| **First Step**        | Q16            | D9     | O5         | M7     |
+| **Start Recipe**      | Q17            | D10    | —          | M7     |
+| **Risk Reversal**     | Q18            | —      | —          | —      |
+| **Activation Moment** | Q17            | D10    | —          | —      |
+| **First Value Path**  | Q17            | D10    | —          | —      |
+| **Time to Value**     | Q15            | —      | —          | —      |
+| **Trigger Events**    | Q6             | D4     | O2         | —      |
+| **Cost of Alt**       | Q5             | —      | —          | —      |
 
 ---
 
@@ -708,14 +764,25 @@ When multiple surfaces show the same gap, confidence in decision inference incre
 
 | Pattern                                    | Decision Gap                    | Confidence |
 | ------------------------------------------ | ------------------------------- | ---------- |
-| Q1-2 partial + D1 partial                  | Category FUZZY                  | HIGH       |
-| Q5-6 missing + D2 missing + O1 weak        | Customer MISSING                | HIGH       |
-| Q9 missing + no alternative on any surface | Alternative MISSING             | HIGH       |
-| Q10-11 weak + D7-8 weak + M5-6 weak        | Proof Type FUZZY                | HIGH       |
-| Q13-15 weak + D9-10 weak + M7 weak         | First Step + Start Recipe FUZZY | HIGH       |
+| Q2-3 partial + D1 partial                  | Category FUZZY                  | HIGH       |
+| Q7 missing + D2 missing + O1 weak          | Customer MISSING                | HIGH       |
+| Q9-10 missing + no alternative on any surface | Alternative MISSING          | HIGH       |
+| Q1 + Q9 + Q10 all missing                  | PULL problem — product-centric  | HIGH       |
+| Q13-14 weak + D7-8 weak + M5-6 weak        | Proof Type FUZZY                | HIGH       |
+| Q16-18 weak + D9-10 weak + M7 weak         | First Step + Start Recipe FUZZY | HIGH       |
+| Q8 missing                                 | Wedge Use Case MISSING          | HIGH       |
 
 ---
 
-**Version 4.0 — March 2026**  
+# APPENDIX: VERSION HISTORY
+
+| Version | Date       | Changes |
+| ------- | ---------- | ------- |
+| 4.0     | March 2026 | Initial architecture document |
+| 5.0     | March 2026 | PULL framework integration, Homepage 15→18 questions (added Q1 Project, Q5 Stakes, split Q9 into Look+Lacking), Added A6 Wedge Use Case decision, Updated scoring thresholds, Added PULL diagnostic pattern |
+
+---
+
+**Version 5.0 — March 2026**  
 **Product.Zone — Buying Path X-RAY Architecture**  
 **Stages → Decisions → Lenses → Surfaces → Questions**
